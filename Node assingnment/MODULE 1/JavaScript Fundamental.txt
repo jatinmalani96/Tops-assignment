@@ -1,0 +1,58 @@
+Q1 : What is the difference between Java & JavaScript?
+	Java is an OOP programming language, and it helps to create applications that function in a virtual machine or browser, while JavaScript is an OOP scripting language. Also, the JavaScript code runs on a browser only. Know more about what is the difference between Java and JavaScript from the table below.
+
+Q2. What is JavaScript?
+	Not a part of the Java platform, JavaScript is a scripting language that is object based and helps to create web pages that are interactive. This language follows all the rules of the client side programming, so it functions on the web browser without any need for interference or resources from the web server. Developed by Netscape Inc, the code for JavaScript is completely text.
+
+Q3. What are the data types supported by JavaScript?
+	1. String
+	2. Number
+	3. Bigint
+	4. Boolean
+	5. Undefined
+	6. Null
+	7. Symbol
+	8. Object
+
+Q4. What are the scopes of a variable in JavaScript?
+	JavaScript variables have only two scopes.
+	Global Variables − A global variable has global scope which means it can be defined anywhere in your JavaScript code.
+	Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
+
+Q5. What is Callback?
+	A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. A function that accepts other functions as arguments is called a higher-order function, which contains the logic for when the callback function gets executed. It’s the combination of these two that allow us to extend our functionality.
+
+Q6. What is Closure? Give an example.
+	A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+	example  :
+
+
+	function init() {
+ 	 var name = "Mozilla"; // name is a local variable created by init
+ 	 function displayName() {
+ 	   // displayName() is the inner function, that forms the closure
+  	  console.log(name); // use variable declared in the parent function
+ 	 }
+  	displayName();
+	}
+	init();
+
+Q7. What is the difference between the operators ‘==‘ & ‘===‘?
+	The == operator performs a loose equality comparison that performs type coercion if necessary to make the comparison possible.
+	The === operator, on the other hand, performs a strict equality comparison that does not perform type coercion and requires the operands to have the same type (as well as the same value).
+
+Q8. What is the difference between null & undefined?
+	Null
+		Null is used to represent an intentional absence of value. It represents a variable whose value is undefined. It accepts only one value, which is null. The Null keyword is used to define the Null type in TypeScript, but it is not useful because we can only assign a null value to it.
+	Undefined
+		It represents uninitialized variables in TypeScript and JavaScript. It has only one value, which is undefined. The undefined keyword defines the undefined type in TypeScript, but it is not useful because we can only assign an undefined value to it.
+
+Q9. What would be the result of 2+5+"3"?
+	Answer:73
+	Explanation:Because compiler firstly treat 2+5 as an integer or a addition symbol then "3" is treated as string and + is treated as concatination  symbol. That's  why the answer is 73.
+
+Q10. What is the difference between Call & Apply?
+	The call() method takes arguments separately.
+	The apply() method takes arguments as an array.
+
+
