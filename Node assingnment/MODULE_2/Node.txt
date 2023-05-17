@@ -1,0 +1,31 @@
+Q1. What is Node.js? Where can you use it?
+	Node.JS, commonly referred to simply as Node, is a JavaScript runtime that allows you to run JS code outside of a web browser. Node is built on Google’s V8 JavaScript engine, the same one used for processing in Chrome.
+	It’s commonly used for building applications, working with modern web app frameworks, and server-side scripting with JS. In practice, Node allows you to run .js files with the node command similar to how you would run .py files with python.
+
+Q2. Explain callback in Node.js.
+	Callback is an asynchronous equivalent for a function. A callback function is called at the completion of a given task. Node makes heavy use of callbacks. All the APIs of Node are written in such a way that they support callbacks.
+
+Q3. What are the advantages of using promises instead of callbacks?
+	They are composable, unlike callbacks, therefore we can avoid callback hells
+	You can easily execute code with Promise.all when multiple responses are returned
+	You can wait for only one result from concurrent pending promises with the help of Promise.race
+	You can write asynchronous code in a synchronous manner if you use it in conjunction with async / await.
+
+Q4. What is NPM?
+	npm is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website. The package manager and the registry are managed by npm
+	
+Q5. What are the modules in Node.js? Explain
+	Consider modules to be the same as JavaScript libraries.
+	A set of functions you want to include in your application.
+	Node.js includes three types of modules:
+		1:Core Modules ::Node.js is a light weight framework. The core modules include bare minimum functionalities of Node.js. These core modules are compiled into its binary distribution and load automatically when Node.js process starts. However, you need to import the core module first in order to use it in your application.
+				 http,url,path,fs,util
+		2:Own Modules
+		3:Third Party Modules
+
+
+
+
+
+
+
