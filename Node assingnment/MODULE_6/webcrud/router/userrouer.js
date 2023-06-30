@@ -57,7 +57,8 @@ router.post("/do_updata",async(req,resp)=>{
     try {
         const id = req.body.id
         await User.findByIdAndUpdate(id,{uname:req.body.uname,email:req.body.email,pass:req.body.pass})
-        console.log(req.body.pass);
+        // console.log(req.body.pass);
+      
         resp.redirect("viewuser")
       
     } catch (error) {
