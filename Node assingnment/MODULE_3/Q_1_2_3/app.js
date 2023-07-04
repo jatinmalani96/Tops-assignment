@@ -32,10 +32,10 @@
 
 
 // Q4. Create weather app.
-const express = require("expess")
-const app = express()
-const PORT = 9000
-const path = require("path")
+// const express = require("expess")
+// const app = express()
+// const PORT = 9000
+// const path = require("path")
 
 
 
