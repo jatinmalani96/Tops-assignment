@@ -1,0 +1,127 @@
+
+1).What are the advantages of Bootstrap? 
+Ans.
+•	Easy initiation. Coding is a hurricane task for a person who is unbeknownst to web development. ...
+•	Responsiveness. ...
+•	Highly customizable. ...
+•	Extremely user-centric. ...
+•	Top-notch support. ...
+•	Cross-browser compatibility. ...
+•	JavaScript plugins to your rescue. ...
+•	Far-reaching popularity.
+_________________________________________________________________________________________
+
+2).What is a Bootstrap Container, and how does it work
+Ans.  
+Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within     a given device or viewport.
+Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container.
+Bootstrap comes with three different containers:
+•	.container, which sets a max-width at each responsive breakpoint
+•	.container-fluid, which is width: 100% at all breakpoints
+•	.container-{breakpoint}, which is width: 100% until the specified breakpoint
+	Extra small
+<576px	Small
+≥576px	Medium
+≥768px	Large
+≥992px	X-Large
+≥1200px	XX-Large
+≥1400px
+.container	100%	540px	720px	960px	1140px	1320px
+.container-sm	100%	540px	720px	960px	1140px	1320px
+.container-md	100%	100%	720px	960px	1140px	1320px
+.container-lg	100%	100%	100%	960px	1140px	1320px
+.container-xl	100%	100%	100%	100%	1140px	1320px
+.container-xxl	100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%	100%
+__________________________________________________________________________________________
+3).What are the default Bootstrap text settings? 
+Ans. 
+Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5. The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif. In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+_________________________________________________________________________________________
+4).What do you know about the Bootstrap Grid System? 
+Ans. 
+Grid System: Bootstrap Grid System allows up to 12 columns across the page. You can use each of them individually or merge them together for wider columns. You can use all combinations of values summing up to 12. You can use 12 columns each of width 1, or use 4 columns each of width 3 or any other combination.
+
+Grid Classes: The Bootstrap grid system has four classes that can be combined to make more flexible layouts:
+•	xs (<576px): For Portrait Mobile Phones.
+•	sm (>=576px): For Landscapes phones
+•	md (>=768px): For Tablets/Phablets
+•	lg (>=992px): For Small-sized Desktops/Laptops
+•	xl (>=1200px): For Larger-sized Desktops/Laptops
+__________________________________________________________________________________________
+5).What is the difference between Bootstrap 4 and Bootstrap 5 ?
+Ans.
+
+Bootstrap 4	Bootstrap 5
+The Bootstrap 4 form has jquery.	The jquery is not utilized in Bootstrap 5.
+Bootstrap 4 has less collection of colors.	Has vibrant and more colors available.
+Browsers restrictions.	Bootstrap 5 improved the browser restriction.
+It has 5 tier grid system.	It has 6 tier grid system.
+The APIs cannot be customized.	Allows modifying APIs or develop own API.
+The positioning feature is absent.	Columns can be positioned.
+Less CSS usability.	More CSS properties also customized properties.
+Uses default form development tools.	Better development of forms.
+There is no offcanvas component.	The offcanvas component is added.
+Bootstrap 4 provides normal form layout with no advance features.	Provides advance and attractive features to make forms.
+Does not support RTL(right to left) switching in languages.	It supports RTL(right to left) switching in languages.
+No themes customization.	Provides theme customization.
+Small icon collection.	
+___________________________________________________________________________________________
+6).What is a Button Group, and what is the class for a basic Button Group? 
+Ans. 
+Bootstrap allows you to group a series of buttons together (on a single line) in a button group: Use a <div> element with class .btn-group to create a button group:
+Vertical Button Groups
+Bootstrap also supports vertical button groups:
+Use the class .btn-group-vertical to create a vertical button group: 
+Justified Button Groups
+To span the entire width of the screen, 
+use the .btn-group-justified class:
+Nesting Button Groups & Dropdown Menus
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Sony <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Tablet</a></li>
+      <li><a href="#">Smartphone</a></li>
+    </ul>
+  </div>
+</div>
+Split Button Dropdowns
+<div class="btn-group">
+ <button type="button" class="btn btn-primary">Sony</button>
+ <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Tablet</a></li>
+    <li><a href="#">Smartphone</a></li>
+  </ul>
+</div>
+__________________________________________________________________________________________
+7).How can you use Bootstrap to make thumbnails? 
+Ans. 
+Responsive images
+Images in Bootstrap are made responsive with .img-fluid. max-width: 100%; and height: auto; are applied to the image so that it scales with the parent element.
+Image thumbnails
+In addition to our border-radius utilities, you can use .img-thumbnail to give an image a rounded 1px border appearance.
+__________________________________________________________________________________________
+8).In Bootstrap 4, what is flexbox? 
+Ans. 
+In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components. This box makes it easier to design flexible responsive layout structures without using float or positioning attributes.
+__________________________________________________________________________________________
+9).How can one create an alert in Bootstrap? 
+Ans.
+Bootstrap Alerts are used to provide an easy way to create predefined alert messages. Alert adds a style to your messages to make it more appealing to the users.
+There are four classes that are used within <div> element for alerts.
+o	.alert-success
+o	.alert-info
+o	.alert-warning
+o	.alert-danger
+o	.alert-primary
+o	.alert-secondary
+o	.alert-light
+o	.alert-dark
+ _________________________________________________________________________________________
