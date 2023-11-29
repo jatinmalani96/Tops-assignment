@@ -1,0 +1,40 @@
+1.What is jQuery?
+=>jQuery is a lightweight, "write less, do more", JavaScript library.
+The purpose of jQuery is to make it much easier to use JavaScript on your website.
+jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,JQuery Animation?
+=>The css() method sets or returns one or more style properties for the selected elements.
+The following example will return the background-color value of the FIRST matched element: $("p").css("background-color");
+The following example will set the background-color value for ALL matched elements: $("p").css("background-color", "yellow");
+=>The addClass() or removeClass() methods are used to add the CSS classes when there is a need to add to our webpage when there is some event listener or to create some kind of effect.
+Syntax:
+Adding a class:
+$('selector').addClass(class_name);
+Removing a class:
+$('selector').removeClass(class_name);
+=>The jQuery animate() method provides you a way to create custom animations.
+Syntax:
+$(selector).animate({params}, speed, callback);  
+Here, params parameter defines the CSS properties to be animated.
+The speed parameter is optional and specifies the duration of the effect. It can be set as "slow" , "fast" or milliseconds.
+The callback parameter is also optional and it is a function which is executed after the animation completes.
+
+3.How to create slider with animation?
+=>Using jQuery , we can add the slide up or down effect in our web page . The slides are always present in the web page in the form of div pairs . There are three methods to add the sliding effects in our web page .These are as follows:
+slideDown() :This method makes the element to slide down.
+Syntax:
+$(selector).slideDown(speed,callback);
+slideUp():This method makes the element to slide up.
+Syntax:
+$(selector).slideUp(speed,callback);
+slideToggle() :This method makes the element to slide up/down.
+If the element is in the slide up position, it makes it slide down.
+If the element is in the slide down position, it makes it slide up.
+Syntax:
+$(selector).slideToggle(speed,callback);
+where
+speed parameter specifies the speed at which the effect is applied .They can accept only these values : “slow” , “fast” or milliseconds.
+call back parameter specifies the function to be executed after the execution of particular slide method.
+
